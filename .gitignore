@@ -16,5 +16,6 @@ dist/
 pieces/*.png
 eco.db
 MANIFEST
-venv/*
+
+venv
 

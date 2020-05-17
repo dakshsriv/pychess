@@ -259,7 +259,15 @@ class Games(GObject.GObject, Perspective):
         savedialog.set_title(title)
         while True:
             filename = "%s-%s" % (game.players[0], game.players[1])
-            savedialog.set_current_name(filename.replace(" ", "_"))
+            savedialog.set_current_name(filename.replace(
+                    " ", "_").replace(
+                    '/','_').replace(
+                    '\\','_').replace(
+                    '*','_').replace(
+                    '*','_').replace(
+                    '[','_').replace(
+                    ']','_').replace(
+                    ',','_'))
 
             res = savedialog.run()
             if res != Gtk.ResponseType.ACCEPT:
