@@ -1353,6 +1353,10 @@ class BoardView(Gtk.DrawingArea):
             rgba = (.204, .396, .643, 0.8)
         elif color == "Y":
             rgba = (.961, .475, 0, 0.8)
+        elif color == "V": # Violet
+            rgba = (153/255, 51/255, 1.0, 0.8)
+        elif color == "M": # Magenta
+            rgba = (1.0, 102/255, 1.0, 0.8)
         else:
             # light_green
             rgba = (0.337, 0.612, 0.117, 0.8)

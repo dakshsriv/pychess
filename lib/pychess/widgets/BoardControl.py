@@ -414,6 +414,12 @@ class BoardControl(Gtk.EventBox):
             return "R"
         elif state & Gdk.ModifierType.CONTROL_MASK:
             return "B"
+        elif state & Gdk.ModifierType.HYPER_MASK:
+            return "V"
+        elif state & Gdk.ModifierType.LOCK_MASK:
+            return "V"
+        elif state & Gdk.ModifierType.MOD1_MASK:
+            return "M"
         else:
             return "G"
 
