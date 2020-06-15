@@ -48,6 +48,8 @@ if sys.version_info < (3, 4, 2):
     sys.exit(1)
 
 try:
+    import sys
+    sys.path.append("/usr/local/lib/python3.6")
     import cairo
     cairo.version
 except ImportError:

@@ -1,0 +1,72 @@
+    2  wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg | sudo apt-key add -
+    3  echo 'deb https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/repos/debs/ vscodium main' | sudo tee --append /etc/apt/sources.list.d/vscodium.list
+    4  sudo apt update && sudo apt install codium
+    8  python3 ./pychess
+    9  sudo apt-get install libcairo2-dev
+   10  python3 ./pychess
+   11  sudo pip install python-cairo
+   12  sudo pip3 install python-cairo
+   13  sudo pip3 install pycairo
+   25  sudo apt install libcairo2-dev pkg-config python3-dev
+   28  cp pychess pychess.local
+   29  nano pychess.local 
+   30  python3 ./pychess.local
+   32  nano pychess.local 
+   33  python3 ./pychess.local
+   34  diff pychess.local pychess
+   46  nano pychess.local 
+   47  pthon3 ./pychess.local 
+   48  python3 ./pychess.local 
+   49  sudo apt-get install python3-cairo
+   53  sudo python3 setup.py install
+   57  sudo python3 setup.py install
+   61  sudo apt install apt-file docbook docbook-xsl build-essential git-core gettext libtext-csv-perl autotools-dev autoconf gettext pkgconf autopoint yelp-tools libjson-pp-perl libfile-copy-recursive-perl
+   62  sudo apt-file update
+   63  sudo apt-get install jhbuild
+   64  sudo apt-get install PyGObject
+   65  sudo apt-get install pygobject
+   66  sudo apt-get install python-gobject
+   68  cd ~/Projects/pychess/
+   69  python3 ./pychess
+   70  python3 ./pychess.local
+   80  python3 pychess
+   81  pychess
+   86  python setup.py bdist_egg
+   87  python3 setup.py bdist_egg
+   88  sudo python3 setup.py bdist_egg
+   89  sudo python3 setup.py bdist
+   90  sudo python3 setup.py wheel
+   91  sudo python3 setup.py bdist_wheel
+   93  sudo python3 setup.py install
+   96  cd ~/Projects/pychess/
+   98  python3 pychess
+   99  python3 ./pychess
+  103  sudo apt install libcairo2
+  105  sudo apt install python3-gi-cairo
+  107  sudo apt-get install python-cairocffi python3-cairocffi
+  108  sudo apt-get install build-essential python3-dev python3-pip python3-setuptools python3-wheel python3-cffi libcairo2 libpango-1.0-0 libpangocairo-1.0-0 libgdk-pixbuf2.0-0 libffi-dev shared-mime-info
+  110  sudo apt install python3-gi
+  111  sudo apt install python3-gobject
+  113  pip3 install cairocffi 
+  114  sudo apt install python3cairocffi 
+  115  sudo apt install python3-cairocffi 
+  117  python3 ./pychess
+  123  cp pychess pychess.new
+  124  nano pychess.new
+  125  python3 pychess.new
+  127  python3 pychess.new
+  130  sudo pip3 install -r requirements.txt 
+  132  sudo pip3 install -r requirements.txt 
+  133  python3 pychess.new
+  134  sudo pip3 install GtkSource
+  135  less INSTALL
+  137  grep -A20 -i depende INSTALL 
+  138  grep -A20 -i Ubuntu INSTALL 
+  139  sudo apt-get install stockfish gnome-icon-theme python3-gi python3-gi-cairo python3-sqlalchemy python3-pexpect python3-psutil python3-websockets gobject-introspection gir1.2-glib-2.0 gir1.2-gtk-3.0 gir1.2-pango-1.0 gir1.2-rsvg-2.0 gir1.2-gdkpixbuf-2.0 gir1.2-gtksource-3.0 gir1.2-gstreamer-1.0 gir1.2-gst-plugins-base-1.0
+  140  python3 pychess.new
+  142  history |grep -i 'install\|chess\|apt\|pip\|setup' >install_history.txt
+  143  less install_history.txt 
+  144  python3 pychess
+  145  echo "sudo apt-get install games-chess" >install_history.txt 
+  146  history |grep -i 'install\|chess\|apt\|pip\|setup' >install_history.txt
+sudo apt-get install games-chess
