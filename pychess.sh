@@ -1,2 +1,4 @@
-~/Projects/pychess/venv/bin/python3 ~/Projects/pychess/pychess &
+export UBUNTU_MENUPROXY=
+export PATH="/home/daksh/Projects/pychess:$PATH"
+/usr/bin/python3.6 ~/Projects/pychess/pychess &
 
